@@ -26,6 +26,22 @@ sudo apt-get install docker-compose-plugin
 
 docker compose version
 
+# Added the below code to run docker in daemon mode as WSL2 doesn't support daemon by default
+
+### cd /home/user_name 
+### ls -al 
+### vi .profile
+
+if grep -q "microsoft" /proc/version > /dev/null 2>&1; then
+    if service docker status 2>&1 | grep -q "is not running"; then
+        wsl.exe --distribution "${WSL_DISTRO_NAME}" --user root \
+            --exec /usr/sbin/service docker start > /dev/null 2>&1
+    fi
+fi
+
+## esc then :wq to save and exit 
+
+# 📢 You have successfully, Install and Configure Docker on your WSL2
 
 # Resource to follow along:
 
