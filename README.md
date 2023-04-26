@@ -1,5 +1,7 @@
 # install-&-configure-docker-on-wsl2
 
+![image](https://user-images.githubusercontent.com/55047333/234490990-b29e90bb-4246-4144-b939-2bd92f3dac29.png)
+
 # Insatlling docker on Ubuntu OS:
 
 curl -fsSL https://get.docker.com -o get-docker.sh
