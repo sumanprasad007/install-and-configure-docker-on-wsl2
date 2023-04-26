@@ -32,10 +32,8 @@ docker compose version
 ### ls -al 
 ### vi .profile
 
-if grep -q "microsoft" /proc/version > /dev/null 2>&1; then
 
 if grep -q "microsoft" /proc/version > /dev/null 2>&1; then
-
     if service docker status 2>&1 | grep -q "is not running"; then
     
         wsl.exe --distribution "${WSL_DISTRO_NAME}" --user root \
