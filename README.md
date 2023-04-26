@@ -1,6 +1,6 @@
 # install-&-configure-docker-on-wsl2
 
-![image](https://user-images.githubusercontent.com/55047333/234490990-b29e90bb-4246-4144-b939-2bd92f3dac29.png)
+![image](https://user-images.githubusercontent.com/55047333/234491283-42b051e1-a497-4a09-9651-9f85705015f2.png)
 
 # Insatlling docker on Ubuntu OS:
 
