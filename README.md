@@ -40,13 +40,13 @@ docker compose version
         
             --exec /usr/sbin/service docker start > /dev/null 2>&1
             
-    fi
+        fi
     fi
 
 
 ## esc then :wq to save and exit 
 
-# 📢 You have successfully, Install and Configure Docker on your WSL2
+## 📢 You have successfully, Install and Configure Docker on your WSL2
 
 # Resource to follow along:
 
