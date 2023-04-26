@@ -1,4 +1,4 @@
-# install-configure-docker-on-wsl2
+# install-&-configure-docker-on-wsl2
 
 # Insatlling docker on Ubuntu OS:
 
